@@ -8,3 +8,13 @@ To use, run "control_opt_flow.py" with the following arguments:
 * Integral gain
 
 control_opt_flow.py will spawn the appropriate DoF application and log experiment time, control signal and process output in a text file named "logfile.txt".
+
+The PI gains empirically found for each control variable were:
+
+* Camera resolution: 
+** P = 100
+** I = 200
+
+* Image resolution:
+** P = 100
+** I = 200
